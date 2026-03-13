@@ -1,4 +1,0 @@
-carros = int(input("Carros: "))
-
-valor = carros * 395,40
-print("Valor: ", valor)
