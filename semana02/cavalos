@@ -1,0 +1,4 @@
+cavalos = int(input("Número de Cavalos: "))
+
+valor = cavalos * 80
+print("Valor Total: ", valor)
