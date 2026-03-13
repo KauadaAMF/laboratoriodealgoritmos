@@ -1,0 +1,8 @@
+
+num = input("Número: ")
+
+mult = num * 2
+print("Dobro: ", mult)
+
+div = num / 2
+print("Metade: ", mult)
