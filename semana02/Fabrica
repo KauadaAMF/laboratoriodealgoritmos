@@ -1,0 +1,4 @@
+preco_fab = input("Preço da Fabrica: ")
+
+valorf = preco_fab * 0.30
+print("Valor Final: ", valorf)
