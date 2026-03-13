@@ -1,0 +1,6 @@
+
+peca = int(input("Valor da Peça: "))
+
+desc = peca / 0.18
+valor = peca - desc
+print("Valor: ", valor)
