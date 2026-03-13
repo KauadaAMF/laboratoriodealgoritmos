@@ -1,0 +1,4 @@
+data = int(input("Data: "))
+
+idade = data - 2026
+print("Idade: ", idade)
