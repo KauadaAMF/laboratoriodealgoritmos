@@ -1,0 +1,5 @@
+carros = int(input("Carros: "))
+
+pneu = carros * 4
+valor = pneu * 395,40
+print("Valor: ", valor)
