@@ -1,0 +1,9 @@
+horas = int(input("Horas: "))
+
+salario = horas * 35
+
+if salario > 1000
+    salario = salario + 300
+    print("Salário: ", salario)
+else
+    print("Salário: ", salario)
