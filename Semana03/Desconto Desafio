@@ -1,0 +1,28 @@
+nome = input("Nome: ")
+valor = float(input("Valor da Compra"))
+pagamento = int(input("Froma de Pagamento"))
+
+if valor > 200:
+    if Pagamento == "Dinheiro"
+        desconto = valor / 0.15
+        desconto = valor - desconto
+        print("Nome: ", nome)
+        print("Valor original: ", valor)
+        print("valor com desconto: ", desconto)
+    else:
+        desconto = valor / 0.05
+        desconto = valor - desconto
+        print("Nome: ", nome)
+        print("Valor original: ", valor)
+        print("valor com desconto: ", desconto)
+else:
+    if Pagamento == "Dinheiro":
+        desconto = valor / 0.10
+        desconto = valor - desconto
+        print("Nome: ", nome)
+        print("Valor original: ", valor)
+        print("valor com desconto: ", desconto)
+    else:
+        print("Nome: ", nome)
+        print("Valor original: ", valor)
+        print("Sem desconto")
