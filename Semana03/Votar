@@ -1,0 +1,7 @@
+ano = int(input("Ano de Nacimento: "))
+idade = ano - 2026
+
+if idade <= 18:
+    print("Pode Votar")
+else:
+    print("Não Pode Votar")
