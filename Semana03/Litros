@@ -1,0 +1,5 @@
+valor_pagamento = float(input("valor: "))
+
+litros = valor_pagamento / 6
+
+print("Litros: ", litros)
