@@ -1,0 +1,21 @@
+valor_compra = float(input("Valor de Compra:"))
+print("1 - a vista")
+print("2 - Em x2")
+print("3 - Em x3")
+opcao = int(input("Digite a opção: "))
+
+if opcao == 1:
+  print("Valor da Compra: ", valor_compra)
+  print("Opção de Pagamento: 1 - a vista")
+elif opcao == 2:
+  parcela = valor_compra / 2
+  print("Valor da Compra: ", valor_compra)
+  print("Opção de Pagamento: 2 - Em x2")
+  print("Valor da parcela: ", parcela)
+elif opcao == 3:
+  parcela = valor_compra / 3
+  print("Valor da Compra: ", valor_compra)
+  print("Opção de Pagamento: 3 - Em x3")
+  print("Valor da parcela: ", parcela)
+else:
+  print("Opção Invalida")
