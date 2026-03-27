@@ -1,0 +1,9 @@
+t1 = int(input("Pontuação do T1:"))
+t2 = int(input("Pontuação do T2:"))
+
+if t1 > t2:
+   print("Time 1 Venceu e Time 2 Perdeu")
+elif t2 > t1:
+   print("Time 2 Venceu e Time 1 Perdeu")
+elif t1 == t2:
+   print("Empate")
