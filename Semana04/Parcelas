@@ -1,0 +1,31 @@
+valor_compra = float(input("Valor de Compra:"))
+print("1 - a vista (4 porcento de desconto)")
+print("2 - Em x12 (2 porcento de juros)")
+print("3 - Em x24 (7 porcento de juros)")
+print("4 - Em x36 (15 porcento de juros)")
+opcao = int(input("Digite a opção: "))
+
+if opcao == 1:
+  valor_final = valor_compra - (valor_compra *  0.04)
+  print("Valor da Compra: ", valor_compra)
+  print("Valor com desconto: ", valor_final)
+elif opcao == 2:
+  valor_juros = valor_compra + (valor_compra *  0.02)
+  parcela = valor_juros / 12
+  print("Valor da Compra: ", valor_compra)
+  print("Valor com juros: ", valor_juros)
+  print("Valor da parcela: ", parcela)
+elif opcao == 3:
+  valor_juros = valor_compra + (valor_compra *  0.07)
+  parcela = valor_juros / 24
+  print("Valor da Compra: ", valor_compra)
+  print("Valor com juros: ", valor_juros)
+  print("Valor da parcela: ", parcela)
+elif opcao == 4:
+  valor_juros = valor_compra + (valor_compra *  0.15)
+  parcela = valor_juros / 36
+  print("Valor da Compra: ", valor_compra)
+  print("Valor com juros: ", valor_juros)
+  print("Valor da parcela: ", parcela)
+else:
+  print("Opção Invalida")
