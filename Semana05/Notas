@@ -1,0 +1,26 @@
+nota1 = float(input("Nota:"))
+nota2 = float(input("Nota:"))  
+
+media = (nota1 + nota2) / 2
+
+if media > 5.9:
+    print("Notas: ", nota1 and nota2)
+    print("Média:", media)
+    if media >= 9:
+        print("Conceito: A")
+        print("Aprovado")
+    elif media >= 7.5 and media <= 8.9:
+        print("Conceito: B")
+        print("Aprovado")
+    else:
+        print("Conceito: C")
+        print("Aprovado")
+else:
+    print("Notas: ", nota1 and nota2)
+    print("Média:", media)
+    if media >= 4 and media <= 5.9:
+        print("Conceito: D")
+        print("Reprovado")
+    else:  
+        print("Conceito: E")
+        print("Reprovado")
