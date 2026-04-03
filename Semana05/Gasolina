@@ -1,0 +1,14 @@
+litros = int(input("Litros:"))
+valort = int(input("Valor Total:"))  
+
+if litros >= 20 and valort > 100:
+    valorf = valort + (valort * 0.10)
+    print("Desconto: 10%")
+    print("Valor Final:", valorf)
+elif litros >= 20 and valort <= 100:
+    valorf = valort + (valort * 0.5)
+    print("Desconto: 5%")
+    print("Valor Final:", valorf)
+else:
+    print("Não há Desconto")
+    print("Valor Final:", valort)
