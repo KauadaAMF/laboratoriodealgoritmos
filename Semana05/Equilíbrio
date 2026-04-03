@@ -1,0 +1,14 @@
+for1 = int(input("Força:"))
+for2 = int(input("Força:"))
+for3 = int(input("Força:"))
+
+equi = (for1 + for2) - for3
+
+if for1 == for2 == for3:
+    print("Simétrico:")
+elif for1 == for2 and equi >= 1:
+    print("Parcialmente Simétrico")
+elif equi >= 1:
+    print("Assimétrico")
+else:
+    print("Não há equilíbrio")
