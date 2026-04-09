@@ -1,0 +1,20 @@
+morango = int(input("Quantidade de Morangos: "))
+macas = int(input("Quantidade de Maças: "))
+
+kgtotal = morango + macas
+
+valmo = morango * 2.50
+if morango > 5:
+    valmo = morango * 2.20
+
+valma = macas * 1.80
+if macas > 5:
+    valma = macas * 1.50
+
+valor = valmo + valma
+
+if valor > 25 or kgtotal > 8:
+    valor = valor - (valor * 0.10)
+    print("Valor a ser Pago: ", valor)
+else:
+    print("Valor a ser Pago: ", valor)
