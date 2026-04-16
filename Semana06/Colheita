@@ -1,0 +1,27 @@
+dia = 1
+total = 0
+
+maior_colheita = -1
+menor_colheita = 999999
+
+dia_maior = 0
+dia_menor = 0
+
+while dia <= 7:
+    quantidade = int(input("Informe a quantidade de oliveiras colhidas no dia: "))
+    
+    total += quantidade
+    
+    if quantidade > maior_colheita:
+        maior_colheita = quantidade
+        dia_maior = dia
+    if quantidade < menor_colheita:
+        menor_colheita = quantidade
+        dia_menor = dia
+    
+    dia += 1
+
+print("Resultado da Semana")
+print("Total de oliveiras colhidas na semana:", quantidade)
+print("Dia com maior colheita: Dia", dia )
+print("Dia com menor colheita: Dia", dia)
