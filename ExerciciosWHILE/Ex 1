@@ -1,0 +1,8 @@
+valor = float(input("Valor de Compra: "))
+
+if valor > 100:
+    desconto = valor * 0.10
+    valor_des = valor - desconto
+    print("Valor: ", valor_des)
+else:
+    print("Sem Desconto")
