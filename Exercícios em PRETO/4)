@@ -1,0 +1,11 @@
+crescimento_anual = 30
+idade = int(input("Digite a idade da oliveira (em anos): "))
+altura_cm = idade * crescimento_anual
+altura_m = altura_cm / 100
+
+if altura_m > 5:
+    print("Altura estimada: ", altura_cm)
+    print("Oliveira adulta")
+else:
+    print("Altura estimada: ", altura_cm)
+    print("Oliveira em crescimento")
