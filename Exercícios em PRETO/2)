@@ -1,0 +1,12 @@
+agua = 500
+consumo = 30
+ciclos = 0
+
+while agua >= consumo:
+    agua -= consumo
+    ciclos += 1
+    print("Ciclo: ", ciclos) 
+    print("restante de água: ", agua)
+
+print("Reservatório vazio ou insuficiente para novo ciclo.")
+print("Total de ciclos realizados: ", ciclos)
