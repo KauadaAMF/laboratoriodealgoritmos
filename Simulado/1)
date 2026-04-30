@@ -1,0 +1,16 @@
+valor_bomba = float(input("Digite o valor do combustível (R$): "))
+
+distribuicao = valor_bomba * 0.17
+etanol = valor_bomba * 0.12
+icms = valor_bomba * 0.28
+impostos_federais = valor_bomba * 0.07
+
+total_adicionais = distribuicao + etanol + icms + impostos_federais
+valor_refinaria = valor_bomba - total_adicionais
+
+print("Valor na bomba: ", valor_bomba)
+print("Distribuição e Revenda (17%): ", distribuicao)
+print("Custo Etanol Anidro (12%):", etanol)
+print("ICMS (28%): ", icms)
+print("CIDE, PIS/PASEP e COFINS (7%): ", impostos_federais)
+print("Valor da refinaria: ", valor_refinaria)
