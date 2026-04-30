@@ -1,0 +1,9 @@
+preco_unitario = 1.99
+print("Loja das Oliveiras – Tabela de preços")
+
+quantidade = 1
+while quantidade <= 50:
+    total = quantidade * preco_unitario
+    print("Muda: ", quantidade)
+    print("R$ ", total)
+    quantidade += 1
