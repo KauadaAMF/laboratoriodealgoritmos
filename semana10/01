@@ -1,0 +1,47 @@
+'''
+for numero in range(1, 11):
+    print(numero)
+'''
+'''
+soma = 0
+
+for i in range(10):
+    numero = float(input("Digite um número: "))
+    soma += numero
+
+media = soma / 10
+
+print("A média aritmética dos números é: ", media)
+'''
+'''
+a = 0
+b = 1
+
+print("Sequência de Fibonacci:")
+
+for i in range(10):
+    print(a)
+    proximo = a + b
+    a = b
+    b = proximo
+'''
+'''
+pares = 0
+impares = 0
+zeros = 0
+
+for i in range(10):
+    num = int(input("Digite o número inteiro: "))
+
+    if num == 0:
+        zeros += 1
+    elif num % 2 == 0:
+        pares += 1
+    else:
+        impares += 1
+
+print("Resultados:")
+print("Quantidade de números pares: ", pares)
+print("Quantidade de números ímpares: ", impares)
+print("Quantidade de zeros: ", zeros)
+'''
