@@ -1,0 +1,8 @@
+lotes = [101, 205, 310, 415, 520]
+
+codigo = int(input("Digite o código do lote para inspeção: "))
+
+if codigo in lotes:
+    print("Lote encontrado")
+else:
+    print("Lote não encontrado")
