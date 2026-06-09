@@ -1,0 +1,10 @@
+producao = []
+
+for i in range(5):
+    kg = float(input(f"Digite a produção da colheita {i + 1} (kg): "))
+    producao.append(kg)
+
+print("\nProduções das últimas colheitas em ordem inversa:")
+
+for i in range(len(producao) - 1, -1, -1):
+    print(producao[i], "kg")
