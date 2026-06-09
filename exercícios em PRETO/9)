@@ -1,0 +1,16 @@
+import random
+
+ids_lotes = []
+
+for i in range(10):
+    id_lote = random.randint(1, 100)
+    ids_lotes.append(id_lote)
+
+print("IDs dos lotes:")
+print(ids_lotes)
+
+print("IDs de lotes pares:")
+
+for id_lote in ids_lotes:
+    if id_lote % 2 == 0:
+        print(id_lote)
