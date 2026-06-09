@@ -1,0 +1,32 @@
+import random
+
+colheita = []
+
+for i in range(5):
+    forca = float(input(f"Digite a força da equipe no lote {i + 1}: "))
+    colheita.append(forca)
+
+pragas = random.sample(range(1, 101), 5)
+
+protegidos = 0
+perdidos = 0
+
+print("\nForças da equipe:")
+print(colheita)
+
+print("\nForças das pragas:")
+print(pragas)
+
+print("\nResultado dos confrontos:")
+
+for i in range(5):
+    if colheita[i] > pragas[i]:
+        print(f"Lote {i + 1}: Equipe {colheita[i]} x Praga {pragas[i]} -> Lote protegido")
+        protegidos += 1
+    else:
+        print(f"Lote {i + 1}: Equipe {colheita[i]} x Praga {pragas[i]} -> Praga resistiu")
+        perdidos += 1
+
+print("Placar final:")
+print("Lotes protegidos:", protegidos)
+print("Lotes perdidos:", perdidos)
