@@ -1,0 +1,14 @@
+etiquetas = []
+
+while len(etiquetas) < 10:
+    codigo = int(input(f"Digite o código RFID {len(etiquetas) + 1}: "))
+
+    if codigo > 1000:
+        etiquetas.append(codigo)
+    else:
+        print("Código inválido! Informe um código maior que 1000.")
+
+print("Códigos RFID válidos cadastrados:")
+
+for codigo in etiquetas:
+    print(codigo)
