@@ -1,0 +1,19 @@
+producoes = []
+
+for i in range(5):
+    kg = int(input(f"Digite a produção da árvore {i + 1} (kg): "))
+    producoes.append(kg)
+
+maior = max(producoes)
+menor = min(producoes)
+
+indice_maior = producoes.index(maior)
+indice_menor = producoes.index(menor)
+
+print("Resultados da produção:")
+
+print(f"Maior produção: {maior} kg")
+print(f"Árvore com maior produção: índice {indice_maior} (Árvore {indice_maior + 1})")
+
+print(f"Menor produção: {menor} kg")
+print(f"Árvore com menor produção: índice {indice_menor} (Árvore {indice_menor + 1})")
