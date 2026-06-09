@@ -1,0 +1,13 @@
+lotes = []
+
+for i in range(6):
+    kg = float(input(f"Digite a quantidade de azeitonas do lote {i + 1} (kg): "))
+    lotes.append(kg)
+
+rendimento = 0.18
+
+print("\nEstimativa de azeite produzido por lote:")
+
+for i in range(len(lotes)):
+    azeite = lotes[i] * rendimento
+    print(f"Lote {i + 1}: {azeite:.2f} litros de azeite")
