@@ -1,0 +1,12 @@
+colheitas = []
+
+for i in range(5):
+    kg = int(input(f"Digite a quantidade de azeitonas colhidas na colheita {i + 1} (kg): "))
+    colheitas.append(kg)
+
+soma = sum(colheitas)
+media = soma / len(colheitas)
+
+print("Resultados da safra:")
+print("Quantidade total colhida:", soma, "kg")
+print("Média por colheita:", media, "kg")
