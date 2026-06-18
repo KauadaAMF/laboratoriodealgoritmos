@@ -1,0 +1,56 @@
+def menu():
+
+    while True:
+        print("1 - Solicitar vaga")
+        print("2 - Retirar aeronave")
+        print("3 - Retirar todas as aeronaves")
+        print("4 - Mostrar aeronaves")
+        print("5 - Mostrar código e entrada")
+        print("6 - Adiantar tempo")
+        print("7 - Mostrar gráfico")
+        print("8 - Mostrar informações do tempo")
+        print("9 - Sair")
+        opcao = input("Escolha uma opção: ")
+
+        if opcao == "1":
+            solicitar_vaga()
+
+        elif opcao == "2":
+            retirar_aeronave()
+
+        elif opcao == "3":
+            retirar_todas()
+
+        elif opcao == "4":
+            mostrar_aeronaves()
+
+        elif opcao == "5":
+            mostrar_entradas()
+
+        elif opcao == "6":
+            adiantar_tempo()
+
+        elif opcao == "7":
+            grafico()
+
+        elif opcao == "8":
+            mostrar_tempo()
+
+        elif opcao == "9":
+
+            print("RESUMO")
+            print("Estacionamentos realizados:",
+                  total_estacionamentos)
+
+            print("Aeronaves retiradas:",
+                  total_retiradas)
+
+            print(f"Valor em caixa: R$ {valor_caixa:.2f}")
+
+            print("Sistema encerrado.")
+            break
+
+        else:
+            print("Opção inválida.")
+
+menu()
